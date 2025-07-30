@@ -1,3 +1,38 @@
 * {
-    background-color: azure;
+ box-sizing: border-box;
+ /* background-color: aliceblue; */
 }
+
+body {
+    background-color: azure;
+    margin-top: 200px;
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 100vh; */
+    align-items: center;
+
+}
+
+form {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 100%;
+    text-align: center;
+}
+button {
+    margin: 40px;
+    border-radius: 30px;
+    height: 50px;
+    width: 220px;
+    border: 0 none;
+    background-color: rgb(255, 196, 232);
+    font-weight: 900;
+}
+
+input

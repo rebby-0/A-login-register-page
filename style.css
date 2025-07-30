@@ -5,7 +5,7 @@
 
 body {
     background-color: azure;
-    margin-top: 200px;
+    margin-top: 100px;
     /* box-sizing: border-box; */
     display: flex;
     flex-direction: column;
@@ -51,15 +51,19 @@ a {
     margin: 5px;
     margin-top: 20px;
     text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
 a:hover {
     color: aqua;
+
 }
 
 span {
     margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 h1 {
@@ -67,4 +71,34 @@ h1 {
     font-weight: bold;
     color: rgb(65, 64, 64);
     text-shadow: 3px 2px rgb(168, 168, 168);
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.word {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.major-container {
+    box-shadow: 10px 10px 10px 10px rgb(168, 168, 168);
+    position: relative;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    max-width: 100%;
+    min-height: 500px;
+    width: 800px;
+}
+
+.formcon{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
 }

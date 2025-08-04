@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
 </head>
 <body>
  <!-- page 1 sign in -->
-<div class="major-container">
-    <div class="formcon" class="main-container1">
+<div class="major-container" id="major-container">
+    <div class="formcon signin">
         <form action="#">
             <h1>SIGN IN</h1>
-            <div>
-                <a href="" >Icons</a>
-                <a href="" >Icons</a>
-                <a href="" >Icons</a>
+            <div  class="social-icons">
+            <a href=""> <i class="fa-brands fa-facebook"></i></a>
+            <a href=""> <i class="fa-brands fa-google"></i></a>
+            <a href=""> <i class="fa-brands fa-instagram"></i></a>
             </div>
             <span>
                 Or use your account
@@ -27,41 +28,46 @@
         </form>
     </div>
     <!-- page 2 sign up -->
-    <div class="formcon" class="main-container2">
-       <form action="#">
+    <div class="formcon register">
+       <form action="#" class="formm">
             <H1>REGISTER</H1>
             <span>use your social profiles</span>
-            <div>
-            <a href="">Icons</a>
-            <a href="">Icons</a>
-            <a href="">Icons</a>
+            <div  class="social-icons">
+            <a href=""> <i class="fa-brands fa-facebook"></i></a>
+            <a href=""> <i class="fa-brands fa-google"></i></a>
+            <a href=""> <i class="fa-brands fa-instagram"></i></a>
             </div>
-            <br>
             <span>
                 or create an account
             </span>
             <input type="text" name="name" placeholder="Fullname">
-            <input type="text" name="username" placeholder="Username">
+            <!-- <input type="text" name="username" placeholder="Username"> -->
             <input type="email" placeholder="Email">
             <input type="password" name="password" placeholder="Password" id="">
             <button type="submit"> REGISTER</button>
        </form>
     </div>
-
-    <div class="word">
-         <h1>You are new here? </h1> 
-         <p>Kindly regigister your detais and your journey begins</p>
-        <button type="submit">REGISTER</button>
+    <div class="wordcon">
+         <div class="wordcontain">
+            <div class="word word1">
+            <h1>You are new here? </h1> 
+            <p>Kindly register your details and begin your journey</p>
+            <button type="submit" id="Register1">REGISTER</button>
+            </div>
+            <div class="word word2">
+            <H1>Hi there,</H1>
+            <p>Nice to have you back with us</p>
+            <button type="submit" id="signIn1">SIGN IN</button>
+        </div>
+        </div>
     </div>
-    <div class="word">
-        <H1>Hi there,</H1>
-        <p>Nice to have you back with us</p>
-        <button type="submit">SIGN IN</button>
-    </div>
-
+   
+   
 </div>
   <footer>
-    <p>Created by Rebbytossi with </p>
+    <p>Created by Rebbytossi with <i class="fa-solid fa-heart"></i></p>
     </footer>
+
+    <script src="/script.js"></script>
 </body>
 </html>

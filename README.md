@@ -1,5 +1,4 @@
-Animated Login/Register Form
-
+#Animated Login/Register Form
 A sliding login and registration form with smooth animations. Users can switch between sign-in and register modes with animated transitions.
 
 

@@ -1,17 +1,21 @@
-Animated Login/Register Form:  
+# Animated Login/Register Form
+
 A sliding login and registration form with smooth animations. Users can switch between sign-in and register modes with animated transitions.
 
-Technologies Used:  
-HTML5, CSS3, JavaScript, 
-Font Awesome for icons
+## Technologies Used
 
-Installation:  
-Clone the repo, 
-Open index.html in your browser
+- HTML5, CSS3, JavaScript
+- Font Awesome for icons
 
-Known Issues:  
-No media queries - Not optimized for mobile devices
+## Installation
 
+1. Clone the repo
+2. Open `index.html` in your browser
 
-Credits:  
+## Known Issues
+
+- **No media queries** - Not optimized for mobile devices
+
+## Credits
+
 Created by Rebbytossi
